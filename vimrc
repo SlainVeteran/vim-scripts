@@ -18,7 +18,7 @@ set list
 set listchars=tab:»\ ,trail:.,nbsp:+
 set scrolloff=8
 
-set g:bufExplorerShowRelativePath=1
+let g:bufExplorerShowRelativePath = 1
 map <f9> :BufExplorer <cr>
 
 set statusline=%<%f\ %h%m%r\ %{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
