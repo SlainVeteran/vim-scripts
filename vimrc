@@ -30,4 +30,3 @@ set fileformats=unix,mac
 
 set nowritebackup
 set nobackup
-set mouse=a

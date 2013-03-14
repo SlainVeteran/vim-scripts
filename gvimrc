@@ -1,4 +1,5 @@
 set nomousehide
+set guifont=Monospace\ 8
 set guioptions=cA
 set guicursor=a:blinkon0
 
