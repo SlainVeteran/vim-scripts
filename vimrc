@@ -1,6 +1,7 @@
 execute pathogen#infect()
 
-let coffee_make_options='--bare'
+let coffee_make_options='-c'
+let coffee_compiler = 'iced'
 
 set bg=light
 
@@ -30,3 +31,8 @@ set fileformats=unix,mac
 
 set nowritebackup
 set nobackup
+
+autocmd FileType gitcommit set textwidth=72
+
+set exrc
+set secure
