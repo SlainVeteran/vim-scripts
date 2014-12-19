@@ -1,3 +1,6 @@
+source $HOME/.vim/vimrc_example.vim
+source $HOME/.vim/vimrc_gentoo.vim
+
 execute pathogen#infect()
 
 let coffee_make_options='-c'
