@@ -13,6 +13,8 @@ set laststatus=2
 set showcmd
 set hlsearch
 
+set mouse=""
+
 syntax on
 filetype plugin indent on
 
@@ -26,7 +28,6 @@ let g:bufExplorerShowRelativePath = 1
 map <f9> :BufExplorer <cr>
 
 let g:jedi#use_tabs_not_buffers = 0
-map <f10> :bprevious <cr>
 
 set statusline=%<%f\ %h%m%r\ %{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
@@ -37,6 +38,7 @@ set fileformats=unix,mac
 
 set nowritebackup
 set nobackup
+set noundofile
 
 autocmd FileType gitcommit set textwidth=72
 
